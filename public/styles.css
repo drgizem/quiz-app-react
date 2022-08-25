@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(17, 17, 150);
+  text-align: center;
+}
+.container {
+  background-color: rgba(0, 195, 255, 0.932);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 40%;
+  top: 200px;
+}
+.questionpart {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+  width: 250px;
+}
+.questionnumber {
+  margin-left: 20px;
+}
+.question {
+  margin-left: 30px;
+  font-size: 19px;
+}
+.answerspart {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  position: relative;
+  margin-top: 40px;
+}
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid blue;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-top: 20px;
+  left: 30px;
+  font-size: 12px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(184, 169, 169);
+}
+.heading {
+  font-size: 40px;
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+.result {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  margin-left: 30%;
+  top: 40%;
+}
+.playbutton {
+  position: relative;
+  margin-top: 315px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: rgb(187, 76, 95);
+  border: 2px solid rgb(219, 39, 69);
+}
+.correctanswer {
+  background-color: green;
+}
+.wronganswer {
+  background-color: red;
+}
